@@ -34,6 +34,4 @@ public class PencilField {
         System.out.println("Pencil2 (Field) hashcode => " + pencil2.hashCode());
         pencil2.write();
     }
-    //methodun avantajı: lambda expression kullanımına olanak sağlamıştır.
-    //Pencil::getInstance
 }
