@@ -13,13 +13,13 @@ import java.util.HashSet;
  *
  * @author mustafa
  */
-public class MyHashSet<T> extends HashSet<T>{
+public class Ders4_MyHashSet<T> extends HashSet<T>{
     private int addCount = 0;
 
-    public MyHashSet() {
+    public Ders4_MyHashSet() {
     }
     
-    public MyHashSet(int initCap, float loadFactor) {
+    public Ders4_MyHashSet(int initCap, float loadFactor) {
         super(initCap, loadFactor);
     }
     
@@ -45,7 +45,7 @@ public class MyHashSet<T> extends HashSet<T>{
     public int getAddCount() {return addCount; }
     
     public static void main(String[] args) {
-        MyHashSet<String> s = new MyHashSet<String>();
+        Ders4_MyHashSet<String> s = new Ders4_MyHashSet<String>();
         s.addAll(Arrays.asList("Snap", "Crackle", "Pop"));
         System.out.println(s.getAddCount());
     }
